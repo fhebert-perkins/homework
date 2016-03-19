@@ -13,4 +13,13 @@ def hailstone(n):
     >>> a
     7
     """
-    "*** YOUR CODE HERE ***"
+    length = 0
+    while n != 1:
+        length +=1
+        if n % 2 == 0:        # n is even
+            n = n // 2
+        else:                 # n is odd
+            n = n * 3 + 1
+        print(n)
+    return length
+print("The length of the sequence is:",hailstone(27))
