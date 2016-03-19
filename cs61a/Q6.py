@@ -13,7 +13,8 @@ def hailstone(n):
     >>> a
     7
     """
-    length = 0
+    length = 1
+    print(n)
     while n != 1:
         length +=1
         if n % 2 == 0:        # n is even
