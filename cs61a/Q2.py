@@ -16,3 +16,6 @@ def a_plus_abs_b(a, b):
     return f(a, b)
 print(a_plus_abs_b(-5,-5))
 print(a_plus_abs_b(5,5))
+
+# Hi, Cole.  This is what they had in mind.
+# Thanks for all you hard work. drP
