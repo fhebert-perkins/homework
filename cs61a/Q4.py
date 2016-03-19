@@ -7,4 +7,16 @@ def largest_factor(n):
 ...
     8
     """
-    "*** YOUR CODE HERE ***"
+    factors = []
+    gf = 1
+    nt = ((n**2) - 1)
+    for f in range(1,nt):
+        if nt % f == 0:
+            factors.append(f)
+    for i in factors:
+        if i < n:
+            gf = i
+    print(factors)
+    return gf
+print(largest_factor(4))
+print(largest_factor(9))
