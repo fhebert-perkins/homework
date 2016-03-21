@@ -10,9 +10,11 @@ git branch yourname
 git checkout yourname
 git pull origin yourname
 ```
-when there are new homework questions in master:
-(from your local branch): `git pull origin master`
-(when you have made edits to your work):
+when there are new homework questions in master (from your local branch): 
+```
+git pull origin master
+```
+when you have made edits to your work (from your local branch):
 ```
 git add -A
 git commit -m "your commit message"
