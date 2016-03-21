@@ -10,11 +10,16 @@ git branch yourname
 git checkout yourname
 git pull origin yourname
 ```
-when there are new homework questions in master (from your local branch): 
+When there are new homework questions in master, or any other changes, e.g., to the README.md file, first make sure you are in your local branch:
+```
+git checkout yourname
+```
+Then pull from master to your local branch, and push from your local branch to your branch on GitHub: 
 ```
 git pull origin master
+git push origin yourname
 ```
-when you have made edits to your work (from your local branch):
+After you have made edits to your work, push those edits from your local branch to your branch on GitHub :
 ```
 git add -A
 git commit -m "your commit message"
