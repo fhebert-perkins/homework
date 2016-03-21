@@ -1,7 +1,6 @@
 def if_function(condition, true_result, false_result):
     """Return true_result if condition is a true value, and
     false_result otherwise.
-
     >>> if_function(True, 2, 3)
     2
     >>> if_function(False, 2, 3)
@@ -20,7 +19,8 @@ def with_if_statement():
     >>> with_if_statement()
     1
     """
-    if c():
+    
+    if c() == True:
         return t()
     else:
         return f()
@@ -29,10 +29,15 @@ def with_if_function():
     return if_function(c(), t(), f())
 
 def c():
-    "*** YOUR CODE HERE ***"
+    return False
 
 def t():
-    "*** YOUR CODE HERE ***"
+    0
 
 def f():
-    "*** YOUR CODE HERE ***"
+    1
+
+print (with_if_function())
+print (with_if_statement())
+
+"""Having some confusion with the main question of this problem. I would like some help/advice."""
