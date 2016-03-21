@@ -10,7 +10,7 @@ def if_function(condition, true_result, false_result):
     >>> if_function(3>2, 3+2, 3-2)
     5
     """
-    if condition == True:
+    if condition:
         return true_result
     else:
         return false_result
@@ -29,10 +29,15 @@ def with_if_function():
     return if_function(c(), t(), f())
 
 def c():
+    return False
     "*** YOUR CODE HERE ***"
 
 def t():
+    1/0
     "*** YOUR CODE HERE ***"
 
 def f():
+    return 1
     "*** YOUR CODE HERE ***"
+print(with_if_function())
+print(with_if_statement())

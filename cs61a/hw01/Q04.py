@@ -17,10 +17,10 @@ def largest_factor(n):
         #return n-1
     #not 100% sure, but I ran a few numbers and this is the conclusion I've drawn
 
-for x in range(1, 1000):
+for x in range(1, 1001):
     print("working on %s..." % x)
     if largest_factor(x) != x-1:
-        print(X, "doesn't work!")
+        print(x, "doesn't work!")
         break
 else:
     print("Works from 1-1000!")
