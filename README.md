@@ -14,7 +14,7 @@ when there are new homework questions in master:
 (from your local branch): 
 ```
 `git pull origin master`
-
+```
 when you have made edits to your work:(from your local branch):
 ```
 git add -A
