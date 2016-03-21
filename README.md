@@ -5,6 +5,7 @@ Please submit your code for Questions 2, 4, 5 and 6.  Question 7 is optional.  D
 # How to use git
 ```
 git clone https://github.com/15-16bayCS2/homework.git
+cd homework
 git branch yourname
 git checkout yourname
 git pull origin yourname
