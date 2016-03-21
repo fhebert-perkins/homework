@@ -30,9 +30,13 @@ def with_if_function():
 
 def c():
     "*** YOUR CODE HERE ***"
-
+    return True
+    
 def t():
     "*** YOUR CODE HERE ***"
-
+    return 1
+    
 def f():
     "*** YOUR CODE HERE ***"
+    return 2
+    
