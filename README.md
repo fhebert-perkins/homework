@@ -1,7 +1,7 @@
 # homework
 This is where homework assignments will be posted and submitted.
 
-Please submit your code for Questions 2, 4, 5 and 6.  Question 7 is optional.  Due 3/21/2016 12:40pm
+Please submit your code for Questions 2, 4, 5 and 6.  Question 7 is optional.  Due 3/25/2016 10:05am
 # How to use git
 We have created an organization called "15-16bayCS2", and a repository within that organization called "homework".  The homework respository has several "branches", one called "master" and one for each student.  If you haven't already, ask a git-maven to create a branch of master called [yourname].  Open a bash terminal on your laptop, navigate to your Documents directory and execute the following commands to create a local version of your branch on your laptop:  
 ```
