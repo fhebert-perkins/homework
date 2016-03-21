@@ -11,18 +11,24 @@ git branch yourname
 git checkout yourname
 git pull origin yourname
 ```
-When there are new homework questions in master, or any other changes, e.g., to the README.md file, first make sure you are in your local branch:
-```
-git checkout yourname
-```
-Then pull from master to your local branch, and push from your local branch to your branch on GitHub: 
+When there are new homework questions in master, or any other changes, e.g., to the README.md file, pull from master to your local branch, and push from your local branch to your branch on GitHub: 
 ```
 git pull origin master
 git push origin yourname
 ```
-After you have made edits to your work, push those edits from your local branch to your branch on GitHub :
+If you ...
+```
+cd ~/Documents/homework/cs61a/hw01
+ls
+```
+... you will see a list of *.py files, one for each assigned question.  Open one for editing using, e.g.:
+```
+nano Q2.py
+```
+After you have made edits to Q2.py, push those edits from your local branch to your branch on GitHub :
 ```
 git add -A
 git commit -m "your commit message"
 git push origin yourname
 ```
+What could be simpler? ;)
