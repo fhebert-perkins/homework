@@ -8,3 +8,5 @@ def largest_factor(n):
     8
     """
     "*** YOUR CODE HERE ***"
+What 
+return(n-1)
