@@ -9,13 +9,7 @@ def a_plus_abs_b(a, b):
     5
     """
     if b < 0:
-        f = sub
+        f = _____
     else:
-        f = add
-    
+        f = _____
     return f(a, b)
-print(a_plus_abs_b(-5,-5))
-print(a_plus_abs_b(5,5))
-
-# Hi, Cole.  This is what they had in mind.
-# Thanks for all you hard work. drP
