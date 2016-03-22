@@ -7,14 +7,14 @@ You are reading this becuase we have created an organization called "15-16bayCS2
 ```
 git clone https://github.com/15-16bayCS2/homework.git
 cd homework
-git branch yourname
-git checkout yourname
-git pull origin yourname
+git branch [yourname]
+git checkout [yourname]
+git pull origin [yourname]
 ```
 When there are new homework questions in master, or any other changes, e.g., to the README.md file, pull from master to your local branch, and push from your local branch to your branch on GitHub: 
 ```
 git pull origin master
-git push origin yourname
+git push origin [yourname]
 ```
 So now you might actually want to do some homework.  If you ...
 ```
@@ -28,7 +28,7 @@ nano Q2.py
 After you have made edits to Q2.py, push those edits from your local branch to your branch on GitHub :
 ```
 git add -A
-git commit -m "your commit message"
-git push origin yourname
+git commit -m "Here's my final answer to Q2"
+git push origin [yourname]
 ```
 What could be simpler? ;)
