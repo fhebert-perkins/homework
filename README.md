@@ -11,7 +11,7 @@ git branch [yourname]
 git checkout [yourname]
 git pull origin [yourname]
 ```
-When there are new homework questions in master, or any other changes, e.g., to the README.md file, pull from master to your local branch, and push from your local branch to your branch on GitHub: 
+When there are new homework questions in master, or any other changes, e.g., to this README.md file, pull from master to your local branch, and push from your local branch to your branch on GitHub: 
 ```
 git pull origin master
 git push origin [yourname]
