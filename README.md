@@ -3,7 +3,7 @@ This is where homework assignments will be posted and submitted.
 
 Please submit your code for Questions 2, 4, 5 and 6.  Question 7 is optional.  Due 3/25/2016 10:05am
 # How to use git
-We have created an organization called "15-16bayCS2", and a repository within that organization called "homework".  The homework respository has several "branches", one called "master" and one for each student.  If you haven't already, ask a git-maven to create a branch of master called [yourname].  Open a bash terminal on your laptop, navigate to your Documents directory and execute the following commands to create a local version of your branch on your laptop:  
+You are reading this becuase we have created an organization called "15-16bayCS2", and a repository within that organization called "homework".  The homework respository has several "branches", one called "master" and one for each student.  If you haven't already, ask a git-maven to create a branch of master called [yourname].  Open a bash terminal on your laptop, navigate to your Documents directory and execute the following commands to create a local version of your branch on your laptop:  
 ```
 git clone https://github.com/15-16bayCS2/homework.git
 cd homework
@@ -16,7 +16,7 @@ When there are new homework questions in master, or any other changes, e.g., to 
 git pull origin master
 git push origin yourname
 ```
-If you ...
+So now you might actually want to do some homework.  If you ...
 ```
 cd ~/Documents/homework/cs61a/hw01
 ls
